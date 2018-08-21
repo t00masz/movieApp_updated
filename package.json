@@ -1,23 +1,19 @@
 {
-  "name": "contact_form",
+  "name": "Contact_form",
   "version": "1.0.0",
-  "description": "Brainhub coding challange",
+  "description": "Updated app",
   "main": "index.js",
   "scripts": {
     "client": "cd client && yarn start --watch",
     "watch-css": "cd client && yarn watch-css",
-    "server": "nodemon server.js",
+    "server": "cd server && nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\" \"yarn watch-css\""
   },
-  "author": "Tomasz Ratman",
-  "license": "ISC",
-  "devDependencies": {
+  "repository": "https://github.com/t00masz/Form_of_contact_updated.git",
+  "author": "t00masz <38228974+t00masz@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
     "concurrently": "^3.6.1",
     "nodemon": "^1.18.3"
-  },
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.5"
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import changeUserData from '../actions/user-actions';
-import { connect } from "react-redux";
+import { connect } from 'react-redux';
 
 const TextInput = (props) => {
   return (

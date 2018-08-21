@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from "react-redux";
+import { connect } from 'react-redux';
 
 import Header from './Header';
 import TextInput from './TextInput'
@@ -12,21 +12,23 @@ import sendUserData from '../actions/send-data';
 const ContactForm = (props) => {
     return (
         
-        <form onSubmit={(e) => {
-            e.preventDefault();
-            props.dispatch(sendUserData({
-                name: props.name, 
-                lastName: props.lastName, 
-                email: props.email, 
-                date: props.date})
-            )}
-        }>
+        <form 
+            autoComplete="off" onSubmit={(e) => {
+                e.preventDefault();
+                props.dispatch(sendUserData({
+                    name: props.name, 
+                    lastName: props.lastName, 
+                    email: props.email, 
+                    date: props.date})
+                )}
+            }>
+
             <div className='container'>
                 <Header 
                     title="Contact form" 
                     subtitle="Personal data" 
                 />
-<div className="widget">
+
                 <TextInput 
                     name='name' 
                     placeholder='Your first name (required)' 
@@ -56,7 +58,7 @@ const ContactForm = (props) => {
                     name='emailError' 
                     value={props.emailError}
                 />
-</div>
+
                 <Header 
                     subtitle="Event date" 
                 />

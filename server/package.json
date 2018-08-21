@@ -1,0 +1,17 @@
+{
+  "name": "contact_form",
+  "version": "1.0.0",
+  "description": "Brainhub coding challange",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "Tomasz Ratman",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5"
+  }
+}

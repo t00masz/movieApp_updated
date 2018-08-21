@@ -13,7 +13,6 @@ const initialState = {
 }
 
 const userReducer = (state = initialState, action) => {
-    console.log(action)
     switch (action.type) {
         
         case types.CHANGE_USER_DATA:
@@ -34,8 +33,7 @@ const userReducer = (state = initialState, action) => {
                 dateError: action.dateError,
             }
 
-        default:
-            return state;
+        default: return state;
     }
 }
 

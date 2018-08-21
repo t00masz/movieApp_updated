@@ -9,10 +9,6 @@ import './styles/styles.css'
 
 const store = configureStore();
 
-store.subscribe(() => {
-    console.log(store.getState());
-  });
-
 ReactDOM.render(
     <Provider store = { store }>
         <ContactForm />
