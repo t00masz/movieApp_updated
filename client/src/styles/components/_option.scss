@@ -1,0 +1,23 @@
+.option {
+    background: $blue;
+    display: flex;
+    padding: $s-size;
+}
+
+.option__input {
+    font-size: $m-size;
+    color: $off-white;
+    background: $dark-blue;
+    flex-grow: 1;
+    border: none;
+    border-bottom: 0.3rem solid darken($dark-blue, 10%);
+    height: $l-size;
+}
+
+.option__label {
+    font-size: $m-size;
+    color: $off-red;
+    flex-grow: 1;
+    border: none;
+    height: $l-size;
+}

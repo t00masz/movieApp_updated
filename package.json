@@ -1,0 +1,23 @@
+{
+  "name": "contact_form",
+  "version": "1.0.0",
+  "description": "Brainhub coding challange",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn start --watch",
+    "watch-css": "cd client && yarn watch-css",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\" \"yarn watch-css\""
+  },
+  "author": "Tomasz Ratman",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.6.1",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5"
+  }
+}

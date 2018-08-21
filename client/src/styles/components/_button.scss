@@ -1,0 +1,12 @@
+.button {
+    background: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $l-size;
+    width: 100%;
+    margin-bottom: $m-size;
+    padding: $m-size;
+    cursor: pointer;
+}
