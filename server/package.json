@@ -1,7 +1,7 @@
 {
   "name": "contact_form",
   "version": "1.0.0",
-  "description": "Brainhub coding challange",
+  "description": "Server",
   "main": "index.js",
   "scripts": {
     "server": "nodemon server.js"
