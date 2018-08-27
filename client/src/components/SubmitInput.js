@@ -2,7 +2,9 @@ import React from 'react';
 
 const SubmitInput = (props) => (
   <div>
-    <input className="button" type='submit' value={props.title}/>
+    <input className="button" 
+      type="submit"
+      value={props.title}/>
   </div>
 );
 

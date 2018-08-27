@@ -6,10 +6,7 @@ const initialState = {
     lastName: '',
     email: '',
     date: today(),
-    nameError: '', 
-    lastNameError: '', 
-    emailError: '', 
-    dateError: '',
+    connectionError: '',
 }
 
 const userReducer = (state = initialState, action) => {
@@ -27,10 +24,7 @@ const userReducer = (state = initialState, action) => {
         case types.SEND_USER_DATA_FAIL:
             return {
                 ...state,
-                nameError: action.nameError,
-                lastNameError: action.lastNameError,
-                emailError: action.emailError,
-                dateError: action.dateError,
+                connectionError: action.connectionError
             }
 
         default: return state;
