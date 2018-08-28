@@ -1,7 +1,7 @@
 import React from 'react';
 import changeUserData from '../actions/user-actions';
 import { connect } from 'react-redux';
-import getDate from '../func/getDate';
+import moment from 'moment';
 
 const DateInput = (props) => (
   <div className="option">
@@ -10,7 +10,7 @@ const DateInput = (props) => (
       type="date" 
       value={props.value} 
       required
-      min={getDate()}
+      min={moment().format("YYYY-MM-DD")}
       onChange = {(e) => {
         props.dispatch(changeUserData(props.name, e.target.value))
       }

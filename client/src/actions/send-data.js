@@ -21,13 +21,13 @@ const sendUserData = (payload) => {
             else {
                 dispatch ({
                     type: types.SEND_USER_DATA_FAIL, 
-                    connectionError: `Connection error! ${response.status} ${response.statusText}`
+                    connectionError: `Error! ${response.status} ${response.statusText}`
                 }) }
         }
         catch (err) {
             dispatch ({
                 type: types.SEND_USER_DATA_FAIL, 
-                connectionError: `Connection error! ${err.message}`
+                connectionError: `Error! ${err.message}`
             })
         }
     }

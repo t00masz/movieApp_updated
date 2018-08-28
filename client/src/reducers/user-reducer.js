@@ -1,11 +1,11 @@
 import * as types from '../actions/action-types';
-import today from '../func/getDate'
+import moment from 'moment'
 
 const initialState = {
     name: '',
     lastName: '',
     email: '',
-    date: today(),
+    date: moment().format("YYYY-MM-DD"),
     connectionError: '',
 }
 
@@ -13,19 +13,20 @@ const userReducer = (state = initialState, action) => {
     switch (action.type) {
         
         case types.CHANGE_USER_DATA:
+        console.log('action')
             return { 
                 ...state,
                 [action.id]: action.update,
-            }
+            };
 
         case types.SEND_USER_DATA_SUCCESS:
-            return initialState
+            return initialState;
 
         case types.SEND_USER_DATA_FAIL:
             return {
-                ...state,
+//                ...state,
                 connectionError: action.connectionError
-            }
+            };
 
         default: return state;
     }

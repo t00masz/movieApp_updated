@@ -11,7 +11,8 @@ import sendUserData from "../actions/send-data";
 
 const ContactForm = (props) => (
     <form 
-        autoComplete="off" onSubmit={(e) => {
+        autoComplete="on" 
+        onSubmit={(e) => {
             e.preventDefault();
             props.dispatch(sendUserData({
                 name: props.name, 
