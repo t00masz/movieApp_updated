@@ -9,7 +9,7 @@ import SubmitInput from "./SubmitInput";
 
 import sendUserData from "../actions/send-data";
 
-const ContactForm = (props) => (
+export const ContactForm = (props) => (
     <form 
         autoComplete="on" 
         onSubmit={(e) => {
@@ -18,7 +18,7 @@ const ContactForm = (props) => (
                 name: props.name, 
                 lastName: props.lastName, 
                 email: props.email, 
-                date: props.date})
+                date: props.date })
             )}
         }>
 
@@ -33,7 +33,7 @@ const ContactForm = (props) => (
                 placeholder="Your first name (required)" 
                 type="text"
                 pattern="([a-zA-Z]){2,30}"
-                value={props.name} 
+                value={props.name}
             />
         
             <TextInput 

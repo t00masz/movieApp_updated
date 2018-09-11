@@ -1,5 +1,7 @@
-import userReducer from '../../reducers/user-reducer';
 import moment from 'moment'
+
+import userReducer from '../../reducers/user-reducer';
+import * as types from '../../actions/action-types';
 
 const initialState = {
     name: '',
@@ -23,17 +25,16 @@ test ('should init reducer', () => {
 });
 
 test ('should change user data', () => {
-    const state = userReducer({type: "CHANGE_USER_DATA", id: "name", update: "Tomasz"})
-    console.log(state)
-    //expect(state.name).toBe('Tomasz')
+    const state = userReducer(currentState, { type: types.CHANGE_USER_DATA, id: "name", update: currentState.name })
+    expect(state.name).toBe(currentState.name)
 });
 
 test ('should change state to initial', () => {
-    const state = userReducer(currentState, { type: 'SEND_USER_DATA_SUCCESS' })
+    const state = userReducer(currentState, { type: types.SEND_USER_DATA_SUCCESS })
     expect(state).toEqual((initialState))
 });
 
-// test ('should show connection error', () => {
-//     const state = userReducer(currentState.connectionError, { type:'SEND_USER_DATA_FAIL' })
-//     expect(state.connectionError).toBe('404')
-// });
+test ('should show connection error', () => {
+    const state = userReducer(currentState, { type: types.SEND_USER_DATA_FAIL, connectionError: currentState.connectionError })
+    expect(state.connectionError).toBe(currentState.connectionError)
+});

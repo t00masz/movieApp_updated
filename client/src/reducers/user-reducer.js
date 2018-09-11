@@ -13,7 +13,6 @@ const userReducer = (state = initialState, action) => {
     switch (action.type) {
         
         case types.CHANGE_USER_DATA:
-        console.log('action')
             return { 
                 ...state,
                 [action.id]: action.update,
@@ -24,7 +23,7 @@ const userReducer = (state = initialState, action) => {
 
         case types.SEND_USER_DATA_FAIL:
             return {
-//                ...state,
+                ...state,
                 connectionError: action.connectionError
             };
 
