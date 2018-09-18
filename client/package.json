@@ -1,7 +1,7 @@
 {
-  "name": "contact_form",
+  "name": "movie_app",
   "version": "0.1.0",
-  "description": "Server",
+  "description": "Client",
   "private": true,
   "dependencies": {
     "enzyme": "^3.5.0",
