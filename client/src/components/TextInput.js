@@ -1,5 +1,5 @@
 import React from 'react';
-import changeUserData from '../actions/user-actions';
+import changeMovieData from '../actions/movie-data-actions';
 import { connect } from 'react-redux';
 
 const TextInput = (props) => (
@@ -11,7 +11,7 @@ const TextInput = (props) => (
       pattern={props.pattern}
       required
       onChange = {(e) => {
-        props.dispatch(changeUserData(props.name, e.target.value))
+        props.dispatch(changeMovieData(props.name, e.target.value))
       }}/>    
   </div>
 );

@@ -1,10 +1,10 @@
 import { createStore, applyMiddleware } from 'redux';
-import userReducer from '../reducers/user-reducer';
+import movieReducer from '../reducers/movie-reducer';
 import thunk from 'redux-thunk'
 
 export default () => {
     const store = createStore(
-        userReducer,
+        movieReducer,
         applyMiddleware(thunk)
     );
     return store;

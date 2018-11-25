@@ -1,0 +1,8 @@
+.movie-prop {
+    color: $off-white;
+    background: $blue;
+    display: flex;
+    border: 0.1rem solid lighten($dark-blue, 20%);
+    justify-content: space-between;
+    padding: $s-size;
+}

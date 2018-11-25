@@ -8,7 +8,8 @@
     "watch-css": "cd client && yarn watch-css",
     "server": "cd server && nodemon server.js",
     "test": "cd client && yarn test",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\" \"yarn watch-css\""
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\" \"yarn watch-css\"",
+    "frontend": "concurrently --kill-others-on-fail \"yarn client\" \"yarn watch-css\""
   },
   "repository": "https://github.com/t00masz/Form_of_contact_updated.git",
   "author": "t00masz <38228974+t00masz@users.noreply.github.com>",

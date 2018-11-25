@@ -5,7 +5,7 @@ const moment = require('moment')
 const router = express.Router();
 const Person = require('../schemas/personalData');
 
-router.post('/people', [
+router.post('/movies', [
         check('name').matches(/^([a-zA-Z ]){2,30}$/),
         check('lastName').matches(/^([a-zA-Z ]){2,30}$/),
         check('email').matches(/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/),

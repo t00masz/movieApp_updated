@@ -1,7 +1,7 @@
 .option {
-    background: $blue;
     display: flex;
     padding: $s-size;
+    background: $blue;
 }
 
 .option__input {
@@ -16,8 +16,28 @@
 
 .option__label {
     font-size: $m-size;
-    color: $off-red;
     flex-grow: 1;
     border: none;
     height: $l-size;
+    width: $width*0.2685;
+    cursor: default;
+}
+
+.option__link-is-active {
+    font-weight: bold;
+    color: $gold;
+}
+
+.option__link:link {
+    font-size: $m-size;
+    color: $off-white;
+    flex-grow: 1;
+    border: none;
+    height: $l-size;
+    width: $width*0.1;
+    text-decoration: none;
+}
+
+.option__link:visited {
+    color: white;
 }

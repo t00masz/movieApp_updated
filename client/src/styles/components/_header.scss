@@ -1,17 +1,25 @@
 .header {
     background: $off-black;
     color: white;
-    padding: $m-size 0;
+    padding: $m-size;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__title {
     font-size: $xl-size;
     margin: 0;
+    cursor: default;
 }
 
-.header__subtitle {
-    color: $off-white;
-    font-size: $l-size;
+.header__content {
+    color: white;
+    font-size: $m-size;
     font-weight: 500;
     margin: 0;
-}
+    display: flex;
+    justify-content: space-between;
+    width: $width * 0.35;
+    padding: $s-size 0;
+  }
