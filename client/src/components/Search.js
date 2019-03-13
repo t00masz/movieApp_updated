@@ -21,7 +21,7 @@ export const Search = (props) => (
                 name="movieTitle" 
                 placeholder="Movie title (required)" 
                 type="text"
-                pattern="^[\w ]{2,30}$"
+                pattern="^[\w ]{1,30}$"
                 value={props.movieTitle}
             />
             <Button 

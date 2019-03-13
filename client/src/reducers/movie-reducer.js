@@ -64,6 +64,9 @@ const movieReducer = (state = initialState, action) => {
         case types.SAVE_MOVIE_TO_DATABASE_FAIL:
             return {
                 ...state,
+                movieData: { 
+                    Title: '',
+                },
                 connectionStatus: action.connectionStatus
             };
 

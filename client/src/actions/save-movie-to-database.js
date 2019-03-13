@@ -9,20 +9,22 @@ const saveMovieToDatabase = (payload) => {
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({
-                    ...payload.movieData
-                }) 
+                body: JSON.stringify(payload.movieData) 
             });
             if (response.status >= 200 && response.status < 300) {
-                console.log(response, 'xx')
                 dispatch ({ 
                     type: types.SAVE_MOVIE_TO_DATABASE_SUCCESS,
-                    connectionStatus: response.statusText
+                    connectionStatus: `The movie is successfully saved.`
                 }) }
-            else {
+            if (response.status === 400) {
                 dispatch ({
                     type: types.SAVE_MOVIE_TO_DATABASE_FAIL, 
-                    connectionStatus: `Error! ${response.status} ${response.statusText}`
+                    connectionStatus: `Error! The movie is already saved.`
+            }) }
+            if (response.status === 422) {
+                dispatch ({
+                    type: types.SAVE_MOVIE_TO_DATABASE_FAIL, 
+                    connectionStatus: `Error! Movie properties are incorrect.`
                 }) }
         }
         catch (err) {

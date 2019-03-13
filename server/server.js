@@ -13,8 +13,8 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/database', { useNewUrlParser: true }, error => {
-    if ( error ) { 
+mongoose.connect('mongodb://localhost:27017/movieapp_database', { useNewUrlParser: true }, error => {
+    if (error) { 
         console.log(`Database is not connected. Program needs to be restarted after connecting with database.`)
     }
     else {
