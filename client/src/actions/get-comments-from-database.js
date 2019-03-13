@@ -6,9 +6,6 @@ const getCommentsFromDatabase = () => {
             const URL = "http://localhost:5000/allComments";
             const response = await fetch(URL, {
                 method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json'
-                }
             })
             const responseJSON = await response.json();
 

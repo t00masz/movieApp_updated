@@ -6,9 +6,6 @@ const getMoviesFromDatabase = () => {
             const URL = "http://localhost:5000/allMovies";
             const response = await fetch(URL, {
                 method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json'
-                }
             })
             const responseJSON = await response.json();
 
