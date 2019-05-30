@@ -1,0 +1,1073 @@
+roadmap:
+  - id: ef491c75-acd8-4035-a2b0-a171d5e06bf4
+    name: Methodologies
+    description: General methodologies
+    importanceLevel: low
+    skillLevel: 1
+    children:
+      - id: db28f844-8f76-4877-b802-a890fe1eeaf4
+        name: Agile
+        skillLevel: 5
+        importanceLevel: low
+        children:
+          - id: 6ac78d61-0577-4c89-9080-2f9f0e8a90cd
+            name: Lean
+            skillLevel: 4
+            importanceLevel: low
+          - id: 4068ddcc-9230-494e-b3e7-415549f42158
+            name: Kanban
+            skillLevel: 3
+            importanceLevel: moderate
+          - id: 0902f74f-0eac-433e-a277-585442015ae9
+            name: Scrum
+            skillLevel: 2
+            importanceLevel: high
+          - id: b9a5148a-41a3-4b6b-a9c9-363cc3dccf1a
+            name: XP
+            skillLevel: 1
+            importanceLevel: low
+            children:
+              - id: 6e4f863e-f4a4-4b0a-919c-2994253d1482
+                name: Rules
+                description:
+                  Extreme Programming rules, how to use them in your non-extreme
+                  project
+                skillLevel: 3
+                importanceLevel: moderate
+                links:
+                  - http://www.extremeprogramming.org/rules.html
+      - id: 45d3c643-d14d-4a95-a300-117b684fa543
+        name: non agile
+        importanceLevel: low
+        skillLevel: 1
+        children:
+          - id: 84ad57b1-a27a-4f95-b743-d4d8a10a3632
+            name: Waterfall
+            skillLevel: 2
+            importanceLevel: low
+  - id: f83303b3-b4d0-4e33-88d9-e10f49d884e0
+    name: Testing
+    skillLevel: 3
+    importanceLevel: high
+    children:
+      - id: dfcb1cef-fa52-4cee-acc8-7120d2af8eed
+        name: TDD
+        skillLevel: 2
+        importanceLevel: low
+        children:
+          - id: 87ab41e1-cb83-4fe4-bfd0-978360c966ec
+            name: Detroit-school TDD
+            skillLevel: 0
+            importanceLevel: low
+          - id: acdd28dd-e5fb-4354-bbd8-f06abe9ae981
+            name: London-school TDD
+            skillLevel: 0
+            importanceLevel: low
+      - id: f2953c15-8d63-45f3-90da-296f7955c786
+        name: BDD
+        skillLevel: 0
+        importanceLevel: low
+      - id: 78adf259-b637-46f3-b059-9377ed4cec49
+        name: Preparing test plans
+        skillLevel: 0
+        importanceLevel: low
+      - id: c553467d-4ba1-4896-bed2-eda9f2811fa8
+        name: Acceptance testing
+        skillLevel: 0
+        importanceLevel: low
+      - id: 6abd0d03-841f-4785-b935-4ede7e3986f9
+        name: Performance testing
+        skillLevel: 0
+        importanceLevel: low
+      - id: 9cba0762-45a6-44cc-80f2-357839fe3e0e
+        name: Regression testing
+        skillLevel: 0
+        importanceLevel: low
+      - id: f84fbdd1-7ede-49e3-ab56-991a2cb7e841
+        name: Application testing
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: add4b720-234b-4440-be1d-72302020a2fe
+            name: Unit tests
+            skillLevel: 0
+            importanceLevel: low
+          - id: 60419c4d-6de9-4fb2-88e2-d965247159e7
+            name: Integration tests
+            skillLevel: 0
+            importanceLevel: low
+          - id: 16049d90-42a8-4e00-b3ef-de0bd249ea7b
+            name: End to end tests
+            skillLevel: 0
+            importanceLevel: low
+  - id: f7838fbe-8f3e-456e-9231-b518e4c1dda3
+    name: Backend
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 8786bd2f-a7ac-4329-bc7f-79bee6ecab4a
+        name: Node.js
+        skillLevel: 0
+        importanceLevel: low
+      - id: 3a7d5d4a-5ee1-4649-b7ad-81a21a832675
+        name: HTTP framework
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: c288f875-8133-40ca-a5db-16495a8fd790
+            name: Express
+            skillLevel: 0
+            importanceLevel: low
+          - id: 4fde3c9e-1d2a-49e1-b592-bfea4a9fa125
+            name: Koa
+            skillLevel: 0
+            importanceLevel: low
+          - id: e5995584-c2c1-4a4e-9c14-ac7fefc06578
+            name: Hapi
+            skillLevel: 0
+            importanceLevel: low
+      - id: 76dfed5d-e976-4895-8a07-14086eb8b547
+        name: HTTP status codes
+        skillLevel: 0
+        importanceLevel: low
+      - id: e13431aa-2b6b-4f26-9f0c-daa85d0dd915
+        name: microservices
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 7594dacd-39c7-4f83-90b9-63fd6858db4f
+            name: startup
+            skillLevel: 0
+            importanceLevel: low
+          - id: 9a443933-875d-463a-81b3-7911310f802b
+            name: synchronisation
+            skillLevel: 0
+            importanceLevel: low
+          - id: 163577a2-01e9-4927-ba60-30de3f463412
+            name: starting connections
+            skillLevel: 0
+            importanceLevel: low
+          - id: 658e769f-03e6-4f93-9025-d74ae6ff83e2
+            name: retry patterns
+            skillLevel: 0
+            importanceLevel: low
+          - id: b8f652f0-7d44-41c1-b785-9b5e4a26ecd7
+            name: queues
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: dfc5f6e3-b247-4ddb-99e6-e5950355b2f9
+                name: RabbitMQ
+                skillLevel: 0
+                importanceLevel: low
+              - id: 7cf78c75-7e5a-4987-90ef-16b4df28b6ec
+                name: ZeroMQ
+                skillLevel: 0
+                importanceLevel: low
+          - id: 904bf3f6-2ef3-455d-be48-55d8ad55dc10
+            name: event brokers
+            skillLevel: 0
+            importanceLevel: low
+          - id: 71b1cfac-f9e2-4689-b026-bfa02527af0e
+            name: service discovery
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: d1cfc4ef-4a65-43a1-a37f-dc74a895799c
+                name: Consul
+                skillLevel: 0
+                importanceLevel: low
+              - id: 4ddc7a35-9025-4cd2-869f-1d0596b363b0
+                name: Eureka
+                skillLevel: 0
+                importanceLevel: low
+      - id: 7a7ab1a4-9b3f-40ea-9f97-45b47113e286
+        name: nanoservices
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: f9e5c7e3-4ef9-4c29-ac9c-6ad01285b1d6
+            name: AWS Lambda
+            skillLevel: 0
+            importanceLevel: low
+          - id: 9afdfa75-1cb0-4a10-bd86-7fd4ee01c38e
+            name: Azure Functions
+            skillLevel: 0
+            importanceLevel: low
+          - id: f3aa070d-855f-4364-8818-88bf26206b17
+            name: Google Cloud Functions
+            skillLevel: 0
+            importanceLevel: low
+      - id: efa75985-d7ca-4747-ae37-14689d3c2223
+        name: API docs
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 1d8501fb-2c61-4e74-bf3e-5c5e0aca59c5
+            name: Swagger
+            skillLevel: 0
+            importanceLevel: low
+          - id: cd318678-9487-4aef-8316-11c08c92001e
+            name: Postman
+            skillLevel: 0
+            importanceLevel: low
+      - id: b12afc81-2894-4f9f-8968-14004ae852a2
+        name: reading external API docs and integrating it to the system
+        skillLevel: 0
+        importanceLevel: low
+      - id: 00cf59c0-9012-4c8a-84be-d5cb55062d2b
+        name: schemas/validation
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 69a60a97-9260-4a50-8050-bea60f7b5f00
+            name: mongoose
+            skillLevel: 0
+            importanceLevel: low
+          - id: 5f26ce60-9141-4f60-b9bf-a4dc3e7b6796
+            name: Joi
+            skillLevel: 0
+            importanceLevel: low
+          - id: d73a4e67-d2c7-416a-ab9f-4fbe5d06b06f
+            name: JSONSchema
+            skillLevel: 0
+            importanceLevel: low
+  - id: 90907225-4d49-4b6c-bcdf-c2de85e1094b
+    name: Frontend
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: a5aafbb4-9203-4b4b-9685-98ee785fe828
+        name: HTML/components
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 337f9895-10ca-4b4d-9d4d-ff4b5e4df886
+            name: HTML
+            skillLevel: 0
+            importanceLevel: low
+          - id: dc410e25-325e-4149-8cb9-cd2814fef3af
+            name: Jade
+            skillLevel: 0
+            importanceLevel: low
+          - id: cdd507f3-7493-4109-ba6a-a251bd0cf812
+            name: Handlebars
+            skillLevel: 0
+            importanceLevel: low
+      - id: 7784bf3f-f1ef-4317-a62c-a14b978400f3
+        name: style
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 396e0df5-1b0f-4508-b5e8-d4a40712c43d
+            name: CSS
+            skillLevel: 0
+            importanceLevel: low
+          - id: 7f27d609-85fe-4991-baa8-fefec4c2535d
+            name: preprocessors
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: 7d33fdec-56f6-456b-8724-6210d9ceb71e
+                name: scss
+                skillLevel: 0
+                importanceLevel: low
+          - id: 3026bd49-2327-41a6-bb00-e3a3df493ed3
+            name: methods to Organize CSS
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: bee3cd2d-0e13-49a3-93c3-4d2265c1acc2
+                name: BEM
+                skillLevel: 0
+                importanceLevel: low
+              - id: 1f03fdb7-909d-4f0f-9a8a-19f562d2b766
+                name: OOCSS
+                skillLevel: 0
+                importanceLevel: low
+              - id: 0549615c-b715-4ee5-ab61-56cf0d0651de
+                name: SMACSS
+                skillLevel: 0
+                importanceLevel: low
+            links:
+              - https://css-tricks.com/methods-organize-css/
+          - id: 782c0a19-9d9d-4a07-9736-653f2c6c8393
+            name: styled components
+            skillLevel: 0
+            importanceLevel: low
+          - id: 094a5575-9488-47a0-b787-0a690b8bdf9f
+            name: animations
+            skillLevel: 0
+            importanceLevel: low
+          - id: 36c2c94f-09ff-45eb-a66d-0febbb975b38
+            name: flex
+            skillLevel: 0
+            importanceLevel: low
+          - id: 19eeb493-84a4-44cf-afc1-e9f06c855415
+            name: grid
+            skillLevel: 0
+            importanceLevel: low
+      - id: 475ee4b7-a109-4859-9132-8532cfb5d2be
+        name: React
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 652977d4-4b4f-49dc-ba04-f8104b716369
+            name: configuring react app
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: 2fa5a610-2502-48d8-b4c0-1f7909809eee
+                name: webpack
+                skillLevel: 0
+                importanceLevel: low
+              - id: f6dae518-b7ab-4356-9307-16b2684782ae
+                name: jest
+                skillLevel: 0
+                importanceLevel: low
+              - id: 39e732b3-9f59-418e-b696-6d1eff307b40
+                name: create-react-app
+                skillLevel: 0
+                importanceLevel: low
+              - id: 23f334c8-1703-40d6-b667-430017750921
+                name: PWA
+                skillLevel: 0
+                importanceLevel: low
+      - id: 72fb5c5f-eacb-4674-b11c-fca3d4ecdcac
+        name: managing state
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 7b6f6f2a-4f53-45fe-88eb-2646c8268f93
+            name: Redux
+            skillLevel: 0
+            importanceLevel: low
+          - id: 781b41c6-2528-4e41-b1d8-6a9606315265
+            name: MobX
+            skillLevel: 0
+            importanceLevel: low
+          - id: b4aff6e9-a748-4f69-89a2-15357e86614e
+            name: Relay/Apollo
+            skillLevel: 0
+            importanceLevel: low
+      - id: f8340c82-5766-4294-9040-781050082364
+        name: side effects modelling
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 6390a2dd-7075-4778-8aaa-24e2090813e7
+            name: redux-saga
+            skillLevel: 0
+            importanceLevel: low
+          - id: d0530c40-cf82-4886-812a-cb37e954611e
+            name: redux-thunk
+            skillLevel: 0
+            importanceLevel: low
+          - id: 92e3179d-2a32-494c-80d7-34282ddbf299
+            name: redux-observable
+            skillLevel: 0
+            importanceLevel: low
+  - id: 6ea3f61d-a32d-425c-9501-5cb08b72b087
+    name: Databases
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: e109bb2b-09da-48ba-9e30-d4d4370a4a3c
+        name: database objects types
+        skillLevel: 0
+        importanceLevel: low
+      - id: d0eaf931-71f5-46c6-8c30-f8df6f1b85b4
+        name: indexes
+        skillLevel: 0
+        importanceLevel: low
+      - id: e4ab3c6b-f429-49fe-81ea-671dd42fad0a
+        name: preformance, execution plans
+        skillLevel: 0
+        importanceLevel: low
+      - id: af807966-a4bf-4f50-8703-86765f5b6387
+        name: primary, foreign keys, relations
+        skillLevel: 0
+        importanceLevel: low
+      - id: 7d279656-02b1-49a9-ad2d-b284014e22df
+        name: constraints
+        skillLevel: 0
+        importanceLevel: low
+      - id: f9f17d8c-c2d4-40d1-9abb-39aea7a42a98
+        name: relational vs nonrelational databases pros&cons
+        skillLevel: 0
+        importanceLevel: low
+      - id: 4f7bd296-ef02-49ae-953a-0b36240b5045
+        name: data normalization
+        skillLevel: 0
+        importanceLevel: low
+      - id: ab375dfe-d519-4156-aa4c-22c490d234d3
+        name: ORMs and ODMs
+        skillLevel: 0
+        importanceLevel: low
+      - id: 56aff727-556a-4037-804d-4331455e466e
+        name: types
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: b32f3ce7-e848-4fc9-be21-bb70198c3bca
+            name: relational
+            skillLevel: 0
+            importanceLevel: low
+          - id: 372cdc24-a5b5-4682-a422-c6df2f0abe6c
+            name: document
+            skillLevel: 0
+            importanceLevel: low
+          - id: 07f03fa9-9abc-4ee8-acf5-7837f1d44b3e
+            name: key/value
+            skillLevel: 0
+            importanceLevel: low
+          - id: 0fbe7d78-549f-413c-8951-69c6cbb976d7
+            name: wide column
+            skillLevel: 0
+            importanceLevel: low
+          - id: 72141487-bab1-4d46-b4fe-f5eeecea416b
+            name: graph
+            skillLevel: 0
+            importanceLevel: low
+  - id: 07cba530-027c-4155-a6a7-f6af0da8fc07
+    name: Mobile APPs
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 41f515c3-4f00-483d-b1d1-442799f6253e
+        name: React Native
+        skillLevel: 0
+        importanceLevel: low
+  - id: 5a8b0f02-8893-41a0-8bfe-2260be2e3cee
+    name: Desktop APPs
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 996d2e41-03c2-4150-9c94-ba2255f81dbd
+        name: Electron
+        skillLevel: 0
+        importanceLevel: low
+  - id: cc2865be-c7d6-4d99-a2c6-62986de78864
+    name: Web
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 83048aa3-aaed-4674-8da7-02cfe81d30fd
+        name: HTTP
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 2d02331c-a2cf-437d-86c1-dc2fa4d05d78
+            name: statelessness
+            skillLevel: 0
+            importanceLevel: low
+          - id: a1fe6341-9bc3-4852-a96a-14eed65d3ae5
+            name: Cookies
+            skillLevel: 0
+            importanceLevel: low
+      - id: bed1b8c5-eda8-480a-8abf-e30f990d5bb2
+        name: REST
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 94044118-4bde-4dbe-8a20-547736a656a8
+            name: API design
+            skillLevel: 0
+            importanceLevel: low
+          - id: 409e7ac0-a719-448d-9a01-38f1cd5a1045
+            name: Hateoas
+            skillLevel: 0
+            importanceLevel: low
+          - id: 123d57be-2b56-43e0-b90d-1de585b53d35
+            name: Richardson maturity model
+            skillLevel: 0
+            importanceLevel: low
+      - id: 6f55a347-96ba-4a3c-b780-1a27eda7dd6d
+        name: GraphQL
+        skillLevel: 0
+        importanceLevel: low
+      - id: 074a0d17-1243-46f7-92e9-bf09d1ba2511
+        name: authentication & authorization
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 8fd20c56-2bb6-417d-90fe-b6b90ea33496
+            name: oAuth2
+            skillLevel: 0
+            importanceLevel: low
+  - id: cbefca4e-a0ce-441c-a333-a74bc1b70380
+    name: Security
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 44764faf-0f43-471a-a500-ee88d3c6e950
+        name: MSDLC
+        skillLevel: 0
+        importanceLevel: low
+      - id: 2069ca53-fef0-410c-8b06-94b135d68768
+        name: OWASP
+        skillLevel: 0
+        importanceLevel: low
+        links:
+          - https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.0.pdf
+      - id: 23f95c9d-8a98-4789-a3d6-8ebdaa852d6f
+        name: OWASP TESTING GUIDE
+        skillLevel: 0
+        importanceLevel: low
+        links:
+          - https://www.owasp.org/images/1/19/OTGv4.pdf
+      - id: 37c8269d-363c-4651-88bd-3745bde42a8e
+        name: Cursera cryptography 1
+        skillLevel: 0
+        importanceLevel: low
+  - id: ac36d4cd-ff2e-42c0-b5c7-62a696f0dcbb
+    name: Design and UX
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: ec602043-6c53-4bd0-88a6-dba719552b9f
+        name: Basics
+        skillLevel: 0
+        importanceLevel: low
+        links:
+          - https://medium.com/level-up-web/a-dummies-guide-to-ux-basics-159378970d60
+          - https://www.usability.gov/what-and-why/user-experience.html
+      - id: d08fbc3b-eeaa-4f8e-836f-f3bbf2babac5
+        name: Material design
+        skillLevel: 0
+        importanceLevel: low
+  - id: ea054927-7912-4cd5-8228-d22b8380fa20
+    name: Soft skills
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 005f42f9-8294-48e8-8f57-5315675b4934
+        name: Time management
+        skillLevel: 0
+        importanceLevel: low
+      - id: c073736c-0b16-4c14-baac-2b8691b93e5d
+        name: assertiveness
+        skillLevel: 0
+        importanceLevel: low
+      - id: 6efbc3eb-6418-450b-9f36-4726d96918d2
+        name: meeting preparation
+        skillLevel: 0
+        importanceLevel: low
+      - id: 8f061f80-f5d0-47ad-a877-ce0b318385f2
+        name: conducting meetings, demos
+        skillLevel: 0
+        importanceLevel: low
+      - id: ea736c52-6445-41f6-8ba6-86dd3207233e
+        name: handling pressure
+        skillLevel: 0
+        importanceLevel: low
+      - id: d55124a5-02c2-4834-a32f-5915f79a9ecf
+        name: mentoring
+        skillLevel: 0
+        importanceLevel: low
+    links:
+      - https://itsyourturnblog.com/lets-stop-calling-them-soft-skills-9cc27ec09ecb
+  - id: a9c5abb4-e2ec-4813-8d47-76f5b22dc4df
+    name: Coding
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 3d3207a0-9717-4d09-a676-ec600e835e7e
+        name: git
+        skillLevel: 0
+        importanceLevel: low
+      - id: 820e71ac-a340-440f-af89-b77891726f50
+        name: code review
+        skillLevel: 0
+        importanceLevel: low
+      - id: 1a00d7fc-cc5d-4ec9-9819-374b1accc815
+        name: algorithms
+        skillLevel: 0
+        importanceLevel: low
+        links:
+          - https://hbfs.wordpress.com/2008/12/23/the-10-classes-of-algorithms-every-programmer-must-know-about/
+          - https://u.osu.edu/cstutorials/2016/11/21/7-algorithms-and-data-structures-every-programmer-must-know/
+      - id: 788b1754-90aa-4092-aff4-d1b6e30e1c21
+        name: Reading code efficiently
+        skillLevel: 0
+        importanceLevel: low
+      - id: d5629514-1db1-41ad-82fc-7e6e2d351aea
+        name: The Rule of Scout
+        skillLevel: 0
+        importanceLevel: low
+      - id: f8da404b-6853-46b3-bd5e-120416af2d84
+        name: Pair-programming
+        skillLevel: 0
+        importanceLevel: low
+      - id: 525ac75a-516d-46f0-bc7e-d38161435426
+        name: object-oriented vs structural programming
+        skillLevel: 0
+        importanceLevel: low
+      - id: 97444083-3883-4948-918c-4e9ebd031047
+        name: programming paradigms
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 1d6674f4-ace6-4242-a351-ed1385140d4a
+            name: functional programming
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: 8f3ec833-5150-4473-99ac-9fae63152a04
+                name: pure / stateless functions
+                skillLevel: 0
+                importanceLevel: low
+              - id: 35af5732-f827-4eb3-9233-4865ed284172
+                name: higher-order functions
+                skillLevel: 0
+                importanceLevel: low
+              - id: 85b6bf00-b108-4888-88d9-a0f4e0d6374d
+                name: closure
+                skillLevel: 0
+                importanceLevel: low
+              - id: 7b7b9dbb-0f58-4c04-b8bd-13f566115529
+                name: currying
+                skillLevel: 0
+                importanceLevel: low
+              - id: 23e82347-f630-49b9-80e1-2d0f5ba06ba1
+                name: partial application
+                skillLevel: 0
+                importanceLevel: low
+              - id: cb174801-bd54-4e8f-bbb2-4e7a1ee57715
+                name: language level tools
+                skillLevel: 0
+                importanceLevel: low
+              - id: 253d6a4b-e6bc-4a50-abb4-af293158c705
+                name: application level tools
+                skillLevel: 0
+                importanceLevel: low
+                children:
+                  - id: 9bbb71c1-7a77-411d-adeb-82706b2dc9b5
+                    name: promises
+                    skillLevel: 0
+                    importanceLevel: low
+                  - id: 8cdd1394-0c9f-48a8-8ee2-44b46e188bfc
+                    name: streams
+                    skillLevel: 0
+                    importanceLevel: low
+                  - id: 092f2c03-ae97-40ba-b8a7-226d09b02e08
+                    name: reactive programming
+                    skillLevel: 0
+                    importanceLevel: low
+  - id: 431fb09f-f38d-4e65-8011-208e990141df
+    name: project organization
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: b775d8ee-256e-4d6e-9e4b-db26d8e6cdba
+        name: organize project structure that scales
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: e43468e3-9dff-4a55-b1d2-bd31f489552e
+            name: feature folders
+            skillLevel: 0
+            importanceLevel: low
+          - id: 81356b4a-c1b6-4e2f-b0d2-c916b52b433b
+            name: where to keep client and backend code
+            skillLevel: 0
+            importanceLevel: low
+          - id: 30798997-8683-4fb9-bc2c-4139407ef42c
+            name: project structure for docker projects
+            skillLevel: 0
+            importanceLevel: low
+          - id: 45a0c598-9495-42cf-bc97-64bbb832fcd6
+            name: project structure for microservices project
+            skillLevel: 0
+            importanceLevel: low
+      - id: cba922fd-6283-4546-988d-75f9e427c7e3
+        name: jira organization / configuration
+        skillLevel: 0
+        importanceLevel: low
+      - id: 45f41802-e3dd-4faf-bec7-6ff3ec2cfe6f
+        name: prioritizing work
+        skillLevel: 0
+        importanceLevel: low
+      - id: 79c8d675-9041-4ede-952e-f7bbdb167535
+        name:
+          breaking large requests down into sub-tasks, giving higher-level status
+          updates
+        skillLevel: 0
+        importanceLevel: low
+      - id: 942433ba-3680-49b8-b6e4-624dbff88f2f
+        name: champions process (Scrum, TDD, etc)
+        skillLevel: 0
+        importanceLevel: low
+      - id: cebbf591-d45f-42bf-aa8d-b2ac340e0eca
+        name: estimation techniques
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 93eab2ac-5381-4d2c-aa37-9717d8f09e46
+            name: trivariate analysis
+            skillLevel: 0
+            importanceLevel: low
+          - id: 6055b70a-b425-4862-b9b6-fc2f1f95d7d2
+            name: PERT
+            skillLevel: 0
+            importanceLevel: low
+        links:
+          - https://www.joelonsoftware.com/2007/10/26/evidence-based-scheduling/
+  - id: 3ce3a75c-ab2e-4b78-a1c7-80fabe16df4b
+    name: working with client
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 8d50eb3b-2810-46e7-a26b-37e0fdea33a1
+        name: English language
+        skillLevel: 0
+        importanceLevel: low
+      - id: 70a0b537-89df-4722-81e5-ee786a9bf055
+        name: expertise in handling communication with client, ability to answer any question
+        skillLevel: 0
+        importanceLevel: low
+      - id: fea04ad6-c134-4fda-b039-3e333ce74912
+        name:
+          behave in a way so the client considers you as the person he wants to approach
+          and ask a question
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 6bde66b8-80a4-40b8-83eb-7622f9fa966a
+            name: make sure your answer will be exhaustive enough
+            skillLevel: 0
+            importanceLevel: low
+      - id: 7bf95deb-504a-47fa-9e53-16d400b3ebb2
+        name: suggesting solution for client problems
+        skillLevel: 0
+        importanceLevel: low
+      - id: cdc315c9-b94a-4d94-8159-5ce93697c9b3
+        name: adjusting the abstract level in communication with client
+        skillLevel: 0
+        importanceLevel: low
+  - id: 148ac919-49bb-48ca-9e17-8d1dff72f130
+    name: DevOps
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 61968358-6141-4ba3-b6e0-566328b25e87
+        name:
+          remember to backup regularly production database, environment variables,
+          codebase and everything what's needed to restore production environment
+        skillLevel: 0
+        importanceLevel: low
+      - id: 8f1389d9-855c-4dab-8777-49b28e39d307
+        name: Linux
+        skillLevel: 0
+        importanceLevel: low
+      - id: c277350e-41da-4a20-ba26-551902ada96e
+        name: bash
+        skillLevel: 0
+        importanceLevel: low
+      - id: 0f0499d4-e1a8-4afd-87bd-485a9c5b19b6
+        name: ansible
+        skillLevel: 0
+        importanceLevel: low
+      - id: de964731-f2f1-49db-a12a-fa16ab1977b1
+        name: Docker
+        skillLevel: 0
+        importanceLevel: low
+      - id: 99dbcea6-e9f2-4e17-a5ff-0c130903eda0
+        name: docker-compose
+        skillLevel: 0
+        importanceLevel: low
+      - id: ad7edfe1-5676-44b2-afa3-645f365472d4
+        name: Kubernetes
+        skillLevel: 0
+        importanceLevel: low
+      - id: 00b17b20-d3f7-4d9a-991c-ea8eee3b8efe
+        name: Rancher
+        skillLevel: 0
+        importanceLevel: low
+      - id: f2de9a39-09c4-470c-8b2b-3c432591a5b0
+        name: CI/CD
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 027dfe16-7c26-440f-a5da-a425d2454e62
+            name: CircleCI
+            skillLevel: 0
+            importanceLevel: low
+          - id: 71f9b8e5-b820-4d8d-aada-e9b06429c448
+            name: Travis CI
+            skillLevel: 0
+            importanceLevel: low
+          - id: bb52c997-4548-4597-bc65-4317c3c0d994
+            name: GitLab CI
+            skillLevel: 0
+            importanceLevel: low
+          - id: 6e6da9a0-36e0-43ba-804f-55640546604c
+            name: Jenkins
+            skillLevel: 0
+            importanceLevel: low
+      - id: 22213a1e-b2b0-4d6e-a89a-62125d1a8042
+        name: deploying platforms
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: a68544b3-a0dc-41b9-8531-bb38242f5d7c
+            name: IaaS
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: 4049ac8f-f71d-40ff-abdc-aec3e8e340f2
+                name: AWS
+                skillLevel: 0
+                importanceLevel: low
+              - id: 759bcb79-72cb-437c-a7c2-b5d82b8283fa
+                name: Digital Ocean
+                skillLevel: 0
+                importanceLevel: low
+              - id: c55b53fe-5265-4ae7-af5e-2123a53aba37
+                name: Microsoft Azure
+                skillLevel: 0
+                importanceLevel: low
+          - id: eefc6b49-8ffe-48fc-bf88-20ed2a0c8145
+            name: PaaS
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: e0fc5320-c83b-4205-a8a3-cae1f27b2fbc
+                name: Heroku
+                skillLevel: 0
+                importanceLevel: low
+              - id: 306901d8-1d88-45c0-9b7b-ad156acf5148
+                name: Google App Engine
+                skillLevel: 0
+                importanceLevel: low
+          - id: e51bd424-1395-48fa-89f6-4d34004b4d17
+            name: FaaS
+            skillLevel: 0
+            importanceLevel: low
+            children:
+              - id: 846fb996-69d4-49c3-9ca5-637d959bbf25
+                name: AWS Lambda
+                skillLevel: 0
+                importanceLevel: low
+              - id: b9f8be1d-0d6e-4536-b111-75280d91ac83
+                name: Google Cloud Functions
+                skillLevel: 0
+                importanceLevel: low
+              - id: 2a1d565d-e21f-4b33-b3cb-c3fc4e80c6da
+                name: Azure Functions
+                skillLevel: 0
+                importanceLevel: low
+      - id: 0f7b8c91-117b-48fe-b1fa-98ac2cab464e
+        name: load balancing
+        skillLevel: 0
+        importanceLevel: low
+      - id: 9514551a-f07a-4785-b39c-61a28875e213
+        name: DNS
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 68594a6d-db5e-4463-8e88-ab0a3b73522b
+            name: Cloudflare
+            skillLevel: 0
+            importanceLevel: low
+          - id: fdf16b5c-f1ff-4b08-b8d8-674a4b435666
+            name: Google DNS
+            skillLevel: 0
+            importanceLevel: low
+      - id: 44486dce-8286-4940-b12b-88d1d0dfd4e7
+        name: connecting with server
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 91486613-4ded-44cc-946e-d3cd23342192
+            name: ssh
+            skillLevel: 0
+            importanceLevel: low
+      - id: a9acc6d9-49b2-4081-b1d1-8b531310d5c5
+        name: HTTPS/SSL/TLS
+        skillLevel: 0
+        importanceLevel: low
+      - id: 3d77a2d6-dbc5-4a61-8d52-58569d99ef05
+        name: Blue-Green deployment
+        skillLevel: 0
+        importanceLevel: low
+    links:
+      - https://12factor.net/
+  - id: 673b433d-6af3-4441-8d57-bb9bf84e130f
+    name: code design
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: d219e94e-e9af-4871-83cc-1a1932c5bcda
+        name: Modeling responsibilities
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 3f80b54d-89a1-4ce3-afda-5a04d0bcbc5f
+            name: CRC cards
+            skillLevel: 0
+            importanceLevel: low
+      - id: b6b7b6b5-f0bb-4d9d-a541-078b1adf5b9f
+        name: SOLID
+        skillLevel: 0
+        importanceLevel: low
+      - id: 9147b8a3-8108-4a52-a2d8-26cadedceb1d
+        name: DRY
+        skillLevel: 0
+        importanceLevel: low
+      - id: c452ac20-5a21-472c-b851-fb0acaca82c5
+        name: YAGNI
+        skillLevel: 0
+        importanceLevel: low
+      - id: 0b471d55-8cc4-46e2-ab21-74864b95a526
+        name: design patterns
+        skillLevel: 0
+        importanceLevel: low
+        children:
+          - id: 2ee1c2f8-7711-4649-91d3-90f1b5f0013b
+            name: 24 GOF Design Patterns
+            skillLevel: 0
+            importanceLevel: low
+          - id: 12df788c-f259-47ca-b931-3b14c47f8d38
+            name: refactoring to patterns
+            skillLevel: 0
+            importanceLevel: low
+      - id: 09e01b74-b704-4b47-b878-ae721bb1b0a3
+        name: refactoring
+        skillLevel: 0
+        importanceLevel: low
+      - id: 951f5caf-ceba-48b4-a512-a5edb26f72bf
+        name: code smells and how to prevent it
+        skillLevel: 0
+        importanceLevel: low
+        links:
+          - https://blog.codinghorror.com/code-smells/
+          - https://sourcemaking.com/refactoring/smells
+      - id: 7fe3ed42-cff6-42df-8002-12cd461f648c
+        name: defensive programming
+        skillLevel: 0
+        importanceLevel: low
+      - id: ef724a82-9bd6-4c38-a0b9-f5084355cbf8
+        name: CQRS
+        skillLevel: 0
+        importanceLevel: low
+      - id: 42fc727f-6987-4f4f-aa4c-5bec57aa9e3f
+        name: DDD
+        skillLevel: 0
+        importanceLevel: low
+        description:
+          What are the pros and cons of using it in project, which 20% part
+          of DDD gives 80% profit
+      - id: ad4e19d5-2554-45d5-ad9b-f1f114144cbe
+        name: event sourcing
+        skillLevel: 0
+        importanceLevel: low
+      - id: ca331e0c-b29a-4b28-9722-d5a17f3572bc
+        name: object calisthenics
+        skillLevel: 0
+        importanceLevel: low
+        links:
+          - https://williamdurand.fr/2013/06/03/object-calisthenics/
+      - id: fbe20cb4-e3cc-4200-8607-d125849ab072
+        name: working with legacy code / legacy project
+        skillLevel: 0
+        importanceLevel: low
+      - id: c525d3ec-3218-4d92-85ad-b087b646d638
+        name: logging
+        skillLevel: 0
+        importanceLevel: low
+  - id: ad7bd16e-4b19-404b-9c1e-b60ae03ad9c8
+    name: architecture
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: 9e1fadae-2736-436d-957c-6be84a2480ee
+        name: documenting suggested solutions, researching
+        skillLevel: 0
+        importanceLevel: low
+      - id: fe22adbb-ce1d-45c7-9258-2c3c588062f8
+        name: writing specs
+        skillLevel: 0
+        importanceLevel: low
+      - id: b113301d-b7f2-46b4-a8de-9064e2f13b26
+        name: hexagonal architecture
+        skillLevel: 0
+        importanceLevel: low
+        links:
+          - https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/
+      - id: 0fcdeda9-bec7-480f-82f6-c8e8c28c3e54
+        name:
+          proper separation of the abstract layers (e.g. errors from database should
+          not be displayed to end user)
+        skillLevel: 0
+        importanceLevel: low
+      - id: 697031bd-cc0a-4c95-a2a9-56b4ce87ed74
+        name:
+          proper way of using composition in frontend and backend, why we should avoid
+          inheritance and when it is allowed (in real world it's not necessary at all)
+        skillLevel: 0
+        importanceLevel: low
+      - id: 20760f6f-875e-418e-a736-2bfd549de7f9
+        name: horizontal and vertical scalability
+        skillLevel: 0
+        importanceLevel: low
+      - id: 3ce11b85-0502-4ba4-bf1b-ff05e0765d75
+        name:
+          understanding implications (and trade-offs) of reliability, scalability,
+          operational costs, ease of adoption by organization, recruiti, etc.
+        skillLevel: 0
+        importanceLevel: low
+      - id: 503d691a-8f63-4720-8019-2cc87ed72e1c
+        name:
+          identifying risks in code, features and design, communicate these to the
+          appropriate parties
+        skillLevel: 0
+        importanceLevel: low
+    links:
+      - https://c4model.com/
+  - id: 9fe4cce2-0b08-4e33-920b-bc4afe5f8323
+    name: recommended books
+    skillLevel: 0
+    importanceLevel: low
+    children:
+      - id: b5d31a5d-3c81-498e-a346-867013b9bfd4
+        name: code complete, Steve McConnell
+        skillLevel: 0
+        importanceLevel: low
+      - id: 494a311f-8962-49b9-9cdd-2312446c7759
+        name: clean coder, Uncle Bob
+        skillLevel: 0
+        importanceLevel: low
+      - id: a3099af7-09a9-4ba5-b1bd-92afe220ba30
+        name: software architecture for developers, Simon Brown
+        skillLevel: 0
+        importanceLevel: low
+      - id: e1580cdb-85f3-4131-ae7e-f6640bcfa6d5
+        name: Design Patterns - Elements of Reusable Object-Oriented Software
+        skillLevel: 0
+        importanceLevel: low
+      - id: 0045584b-eada-48c1-ad0f-4bf6f6008ad3
+        name: Domain-driven design, Eric Evans
+        skillLevel: 0
+        importanceLevel: low
+      - id: 68f40960-c769-4391-81d9-75bf4f7f06b2
+        name: Patterns of Enterprise Application Architecture
+        skillLevel: 0
+        importanceLevel: low
+      - id: e7d2ca3c-464e-48e0-95a6-97bc2d478438
+        name: Growing Object Oriented Software Guided by Tests
+        skillLevel: 0
+        importanceLevel: low
+      - id: 55815483-9c20-402e-801f-4137f6912cc9
+        name: Extreme Programming Explained - Kent Beck
+        skillLevel: 0
+        importanceLevel: low
+  - id: b76fa88e-c992-403f-bb29-53baaee4808f
+    name: other resources
+    skillLevel: 0
+    importanceLevel: low
+    links:
+      - https://www.youtube.com/watch?v=DngAZyWMGR0
+      - https://vimeo.com/125074876
+      - https://vimeo.com/86396740
+      - https://dannorth.net/talks/
